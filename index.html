@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message for Lovers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Sixtyfour+Convergence&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="title">Invisible Me!</div>
+    <div id="container">
+        <h1>Send Your Secret Message</h1>
+        <input type="password" id="pass" placeholder="Enter your message">
+        <button onclick="generateKey()">Generate Key</button>
+        <p id="key">Key: </p>
+        <input type="text" id="check" placeholder="Enter the key to reveal the message">
+        <button id="btn">Validate</button>
+        <p id="result"></p>
+    </div>
+
+   
+    <audio id="audio" src="./videoplayback.mp3" preload="auto"></audio> 
+
+    <script src="play.js">
+      
+    </script>
+</body>
+</html>
