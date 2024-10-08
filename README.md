@@ -39,7 +39,8 @@ cd secret-message-for-lovers
 open index.html
 4. Add your audio file:
 
-Replace the videoplayback.mp3 file in the project directory with your own audio file or use the provided one.
+Replace the videoplayback.mp3 file in the project directory with your own audio file or
+use the provided one.
 
 5. Enjoy! Enter your secret message, generate a key, and share it with someone special.
 
